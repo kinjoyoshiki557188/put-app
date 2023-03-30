@@ -1,0 +1,35 @@
+<%= render "shared/header" %>
+<div class='main'>
+
+  <div class='select-reason-contents'>
+    <h2 class='title'>
+       <% if user_signed_in? %>
+      こんにちは
+        <%="#{current_user.name}さん"%>
+      </div>
+      <% end %>
+    </h2>
+    <ul class='reason-lists'>
+      <li class='list'>
+        <%= link_to image_tag("My project-1.jpg",class:"list-pict"), "http://localhost:3000/rooms/17/messages"%>
+        <h3 class='reason-list-text'>
+          <span class='reason-list-blue-text'>投稿画面</span>
+        </h3>
+      </li>
+      <li class='list'>
+        <%= image_tag "My project-02.jpg", class:"list-pict" %>
+        <h3 class='reason-list-text'>
+          <span class='reason-list-blue-text'>マイページ</span>
+        </h3>
+      </li>
+      <li class='list'>
+        <%= image_tag "My project-03.jpg", class:"list-pict" %>
+        <h3 class='reason-list-text'>
+          <span class='reason-list-blue-text'>お気に入り記事</span>
+        </h3>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<%= render "shared/footer" %>
