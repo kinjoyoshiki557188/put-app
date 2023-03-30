@@ -10,23 +10,24 @@
 .side-bar-header {
   height: 100px;
   padding: 0 20px;
-  background-color: #253141;
+  background-color: #ffa500;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  overflow: scroll;
 }
 
 .header-name a{
   font-size: 16px;
-  color: #FAFAFA;
+  color: #000000;
   text-decoration: none;
 }
 
 .create-room a {
   font-size: 10px;
-  border: 1px solid lightblue;
+  border: 1px solid #000000;
   padding: 14px;
-  color: deepskyblue;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -51,10 +52,14 @@
   width: calc(100vw - 300px);
 }
 .chat-header {
+  background-color: #f0e68c;
   height: 100px;
   padding: 0 40px;
   display: flex;
   justify-content: space-between;
+}
+.images {
+  width: 6vw;
 }
 
 .header-title {
@@ -78,6 +83,7 @@
   background-color: #FAFAFA;
   height: calc(100vh - 100px - 90px);
   padding: 46px 40px 0;
+  overflow: scroll;
 }
 .form {
   background-color: #DDDDDD;

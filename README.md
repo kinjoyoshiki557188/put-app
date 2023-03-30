@@ -1,24 +1,85 @@
-# README
+アプリケーション名
+----------------
+PUT
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+アプリケーション概要
+----------------
+ユーザー同士で情報を共有し技術を高めあう事が出来る。
 
-Things you may want to cover:
+URL
+----------------
+※本番環境のアプリケーションURL
 
-* Ruby version
 
-* System dependencies
+テスト用アカウント
+----------------
+.basic認証パスワード：admin
+.basic認証ID      :2222
+.メールアドレス     :test@test
+.パスワード        :ky557188
 
-* Configuration
+利用方法
+----------------
+情報記事投稿
+----------------
+1.ユーザー新規登録を行う
+2.グループ作成ボタンからグループ名、グループメンバーを選んで記事を入力
+3.記事を入力したら送信ボタンを押す
 
-* Database creation
+記事内容を確認、返信
+-----------------
+グループ内のメンバーが投稿した無い内容を確認、それに足してコメント等を送る
 
-* Database initialization
+アプリケーションを作成した背景
+-----------------
+私はQiitaを利用して学んだ事をアウトプットしているのですが継続が難しいという課題が出てきました。
+課題を分析した結果、Qiitaでは他のユーザーから評価を受けることがほとんど無く投稿した記事も確認
+されているかも分からないからモチベーションが下がるという仮説を立てました。
+そこで同様の問題を抱えているかたが多いと推測し、真意を解決する為に、気の知れた中までグループを作りグループ内でお互いの記事を確認しあうことでモチベーションの維持、技術向上に繋げていけるようアプリケーションを作成しました。
 
-* How to run the test suite
+洗い出した要件
+---------------- 
+※ここに要件定義シート
 
-* Services (job queues, cache servers, search engines, etc.)
+実装した機能についての画像やGIFおよびその説明
+----------------
+※画像、機能の説明
 
-* Deployment instructions
+実装予定の機能
+----------------
+1,全体的なビューの改善
+2,いいね機能、マイページ管理機能
+3,お気に入り記事保存機能
+4,タグ管理機能
 
-* ...
+データベース設計
+---------------
+[![Image from Gyazo](https://i.gyazo.com/8ae8074696c99ce59f33107a93609bee.png)](https://gyazo.com/8ae8074696c99ce59f33107a93609bee)
+
+画面遷移図
+---------------
+
+[![Image from Gyazo](https://i.gyazo.com/b2c58e19ddb61a91b42876afd544d6ec.png)](https://gyazo.com/b2c58e19ddb61a91b42876afd544d6ec)
+
+
+開発環境
+---------------
+.Ruby
+.Ruby on rails
+.Sequel Pro
+.Render
+.Visual Studio Code
+
+
+ローカルでの動作方法
+---------------
+以下のコマンドを順に実行。
+% git clone https://github.com/kinjoyoshiki557188/put-app
+% cd put-app
+% bundle install
+% yarn install
+
+工夫したポイント
+----------------
+オンラインスクルーで学んで知識を活かして全体的にシンプルでわかりやすくを意識して作成しました。
+今後も追加実装を行いより使いやすく機能性のあるアプリケーションにしていく予定です。

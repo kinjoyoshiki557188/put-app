@@ -17,6 +17,11 @@ class MessagesController < ApplicationController
     end
   end
 
+  def show
+    @message = Room.find(params[:room_id])
+
+  end
+
   private
 
   def message_params

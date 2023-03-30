@@ -1,4 +1,5 @@
 <div class="chat-header">
+    <%= link_to image_tag("My project-1.png", class:"images")%>
   <div class="left-header">
     <div class="header-title">
       <%= @room.name %>
@@ -6,7 +7,9 @@
   </div>
   <div class="right-header">
     <div class="header-button">
-      <%= link_to "チャットを終了する", room_path(@room), method: :delete %>
+      <%= link_to "グループ削除", room_path(@room), method: :delete %>
+      <%= link_to "ホームに戻る", root_path %>
+
     </div>
   </div>
 </div>
