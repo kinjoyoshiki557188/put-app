@@ -8,7 +8,7 @@ PUT
 
 URL
 ----------------
-※本番環境のアプリケーションURL
+https://put-app.onrender.com
 
 
 テスト用アカウント
@@ -39,7 +39,7 @@ URL
 
 洗い出した要件
 ---------------- 
-※ここに要件定義シート
+https://docs.google.com/spreadsheets/d/13lOUkcWCBGr7bvMbr0pbzIxJHIhH1mpcNabxnkiRYa0/edit?usp=sharing
 
 実装した機能についての画像やGIFおよびその説明
 ----------------
