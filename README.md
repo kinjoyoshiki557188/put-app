@@ -43,7 +43,20 @@ https://docs.google.com/spreadsheets/d/13lOUkcWCBGr7bvMbr0pbzIxJHIhH1mpcNabxnkiR
 
 実装した機能についての画像やGIFおよびその説明
 ----------------
-※画像、機能の説明
+1,ユーザー登録機能
+ユーザー登録する事で、記事の投稿が出来るようになります。
+
+https://i.gyazo.com/a4a85c02c4b752fc56386053e5cd395e.gif
+
+2,グループ管理機能
+グループ作成画面からグループ名、グループメンバーを選ぶことでグループが作成されます。
+
+https://i.gyazo.com/3f0485684255422fb7bbe760b13f92d8.gif
+
+3,写真付き記事投稿機能
+グループ内で記事と写真を一緒に投稿できます。
+
+https://i.gyazo.com/975622d7738d44b8baf5ec9f1af656f7.gif
 
 実装予定の機能
 ----------------
