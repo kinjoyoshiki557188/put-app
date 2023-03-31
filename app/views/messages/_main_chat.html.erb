@@ -8,7 +8,7 @@
   <div class="right-header">
     <div class="header-button">
       <%= link_to "グループ削除", room_path(@room), method: :delete %>
-      <%= link_to "ホームに戻る", root_path %>
+      <%= link_to 'ログアウト',destroy_user_session_path, method: :delete, class: "logout" %>
 
     </div>
   </div>
