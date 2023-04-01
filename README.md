@@ -100,21 +100,21 @@ https://i.gyazo.com/975622d7738d44b8baf5ec9f1af656f7.gif
 開発環境
 ---------------
 
-.Ruby
-.Ruby on rails
-.Sequel Pro
-.Render
-.Visual Studio Code
+.Ruby  
+.Ruby on rails  
+.Sequel Pro  
+.Render  
+.Visual Studio Code  
 
 
 ローカルでの動作方法
 ---------------
 
 以下のコマンドを順に実行。
-% git clone https://github.com/kinjoyoshiki557188/put-app
-% cd put-app
-% bundle install
-% yarn install
+% git clone https://github.com/kinjoyoshiki557188/put-app  
+% cd put-app  
+% bundle install  
+% yarn install  
 
 工夫したポイント
 ----------------
